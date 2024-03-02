@@ -117,3 +117,42 @@ input {
 .a {
   color: #8a4fbe;
 }
+
+.pulse {
+  transform-origin: 70% 70%;
+  animation-name: pulse-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Responsive */
+
+/* Animation */
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
